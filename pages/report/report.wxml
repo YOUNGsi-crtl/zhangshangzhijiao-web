@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="report-head"><view class="tag">AI训练完成</view><view class="score">{{score}}</view><view class="muted">本次综合动作评分</view></view>
+  <view class="card summary"><view><text class="metric">18</text><text>训练分钟</text></view><view><text class="metric">12</text><text>完成动作</text></view><view><text class="metric">93%</text><text>稳定性</text></view></view>
+  <view class="section-title mt32">动作表现</view>
+  <view class="card bars mt16">
+    <view class="bar-row"><text>动作准确度</text><view class="bar"><view style="width:95%"></view></view><text>95</text></view>
+    <view class="bar-row"><text>动作幅度</text><view class="bar"><view style="width:88%"></view></view><text>88</text></view>
+    <view class="bar-row"><text>动作稳定性</text><view class="bar"><view style="width:93%"></view></view><text>93</text></view>
+    <view class="bar-row"><text>动作节奏</text><view class="bar"><view style="width:90%"></view></view><text>90</text></view>
+  </view>
+  <view class="section-title mt32">AI发现</view>
+  <view class="card"><view class="error"><text class="dot">!</text><view><text>膝盖内扣</text><text class="muted">出现 4 次，建议加强膝髋协同控制。</text></view></view><view class="error"><text class="dot">!</text><view><text>动作幅度不足</text><text class="muted">出现 5 次，建议降低速度并扩大动作范围。</text></view></view></view>
+  <view class="section-title mt32">下一次训练建议</view>
+  <view class="card advice">根据本次训练，下一次优先进行下肢稳定和动作幅度训练。系统会继续追踪你的动作改善情况。</view>
+  <button class="primary begin" bindtap="backHome">完成并返回首页</button>
+</view>

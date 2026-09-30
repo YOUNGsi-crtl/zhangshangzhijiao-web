@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="section-title">AI设备校准</view><view class="muted mt16">训练前完成环境与人体姿态检测，确保识别稳定。</view>
+  <view class="camera-box">
+    <camera device-position="front" flash="off" class="camera"></camera>
+    <view class="scan"></view><view class="human"><view class="head"></view><view class="body"></view><view class="arm l"></view><view class="arm r"></view><view class="leg l"></view><view class="leg r"></view></view>
+    <view class="camera-tip">请站在画面中央，保持全身完整可见</view>
+  </view>
+  <view class="checks card">
+    <view class="check"><text>光照</text><text class="ok">良好 ✓</text></view>
+    <view class="check"><text>人体完整度</text><text class="ok">100% ✓</text></view>
+    <view class="check"><text>拍摄距离</text><text class="ok">合适 ✓</text></view>
+    <view class="check"><text>遮挡情况</text><text class="ok">无明显遮挡 ✓</text></view>
+  </view>
+  <button class="primary begin" bindtap="start">校准完成，开始训练</button>
+</view>

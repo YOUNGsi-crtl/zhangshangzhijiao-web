@@ -1,0 +1,9 @@
+Page({
+ data:{courses:[
+  {id:"posture",name:"肩颈体态改善",short:"肩颈",level:"初级",desc:"改善圆肩与头前伸，建立肩胛稳定",duration:12,moves:6,cls:"c1"},
+  {id:"squat",name:"基础深蹲矫正",short:"深蹲",level:"初级",desc:"强化下肢基础，训练膝髋协同",duration:15,moves:5,cls:"c2"},
+  {id:"core",name:"核心稳定训练",short:"核心",level:"中级",desc:"提升躯干控制与动作稳定性",duration:18,moves:7,cls:"c3"},
+  {id:"stretch",name:"全身舒展",short:"拉伸",level:"低强度",desc:"训练后放松，改善活动度",duration:10,moves:8,cls:"c4"}
+ ]},
+ detail(e){wx.navigateTo({url:"/pages/course-detail/course-detail?id="+e.currentTarget.dataset.id})}
+})

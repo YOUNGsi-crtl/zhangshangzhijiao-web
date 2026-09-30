@@ -1,0 +1,1 @@
+Page({data:{score:92},onLoad(o){this.setData({score:o.score||92})},backHome(){wx.switchTab({url:"/pages/index/index"})}})

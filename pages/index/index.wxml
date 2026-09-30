@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="hero">
+    <view class="brand-row">
+      <view class="logo">智</view>
+      <view>
+        <view class="brand">掌上智康</view>
+        <view class="sub">AI运动姿态矫正</view>
+      </view>
+      <view class="avatar">杨</view>
+    </view>
+    <view class="greeting">下午好，准备开始今天的训练吗？</view>
+    <view class="hero-stats">
+      <view><text class="big">92</text><text> 今日状态</text></view>
+      <view><text class="big">18</text><text> 连续训练天</text></view>
+      <view><text class="big">126</text><text> 本周分钟</text></view>
+    </view>
+  </view>
+
+  <view class="card start-card">
+    <view class="between">
+      <view><view class="section-title">今日训练计划</view><view class="muted mt16">体态改善 · 18分钟 · 低强度</view></view>
+      <view class="pulse">AI</view>
+    </view>
+    <button class="primary start-btn" bindtap="startTraining">开始 AI 跟练</button>
+  </view>
+
+  <view class="between mt32"><text class="section-title">AI 今日建议</text><text class="muted">基于最近7次训练</text></view>
+  <view class="card advice mt16">
+    <view class="advice-icon">✦</view>
+    <view><text class="advice-title">肩颈稳定性需要关注</text><text class="muted advice-text">建议今天加入 5 分钟肩胛控制训练，训练时注意肩线保持水平。</text></view>
+  </view>
+
+  <view class="between mt32"><text class="section-title">推荐训练</text><navigator url="/pages/course/course" class="muted">全部课程 ›</navigator></view>
+  <view class="course-row mt16">
+    <view class="mini-course" bindtap="openCourse"><view class="course-art art1">肩</view><text>肩颈体态</text><text class="muted">12分钟 · 初级</text></view>
+    <view class="mini-course" bindtap="openCourse"><view class="course-art art2">核心</view><text>核心稳定</text><text class="muted">15分钟 · 中级</text></view>
+  </view>
+</view>

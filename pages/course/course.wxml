@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="page-head"><view class="section-title">训练课程</view><text class="muted">AI为你筛选适合的训练</text></view>
+  <scroll-view scroll-x class="tabs"><view class="tab active">推荐</view><view class="tab">体态</view><view class="tab">力量</view><view class="tab">康复辅助</view><view class="tab">拉伸</view></scroll-view>
+  <view class="list">
+    <view class="course card" wx:for="{{courses}}" wx:key="id" bindtap="detail" data-id="{{item.id}}">
+      <view class="cover {{item.cls}}">{{item.short}}</view>
+      <view class="course-info"><view class="between"><text class="course-title">{{item.name}}</text><text class="tag">{{item.level}}</text></view><text class="muted">{{item.desc}}</text><view class="meta"><text>{{item.duration}}分钟</text><text>{{item.moves}}个动作</text><text>AI矫正</text></view></view>
+    </view>
+  </view>
+</view>

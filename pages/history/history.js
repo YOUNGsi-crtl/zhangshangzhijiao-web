@@ -1,0 +1,1 @@
+const {getHistory}=require("../../utils/storage");Page({data:{history:[]},onShow(){this.setData({history:getHistory()})}})

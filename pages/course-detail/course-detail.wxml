@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="detail-cover"><text>{{course.short}}</text><view class="ai-badge">AI实时矫正</view></view>
+  <view class="card intro">
+    <view class="section-title">{{course.name}}</view>
+    <view class="muted mt16">{{course.desc}}</view>
+    <view class="metrics"><view><text>{{course.duration}}</text><small>分钟</small></view><view><text>{{course.moves}}</text><small>动作</small></view><view><text>低</text><small>风险等级</small></view></view>
+  </view>
+  <view class="section-title mt32">训练动作</view>
+  <view class="card move-list mt16"><view class="move" wx:for="{{moves}}" wx:key="*this"><text class="num">{{index+1}}</text><text>{{item}}</text><text class="muted">AI检测</text></view></view>
+  <button class="primary begin" bindtap="begin">开始训练</button>
+</view>

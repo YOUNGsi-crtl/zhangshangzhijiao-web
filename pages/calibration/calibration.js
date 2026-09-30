@@ -1,0 +1,1 @@
+Page({start(){wx.navigateTo({url:"/pages/training/training"})}})

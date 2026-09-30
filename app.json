@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/course/course",
+    "pages/course-detail/course-detail",
+    "pages/calibration/calibration",
+    "pages/training/training",
+    "pages/report/report",
+    "pages/history/history",
+    "pages/challenge/challenge",
+    "pages/profile/profile",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "navigationBarTitleText": "掌上智教",
+    "navigationBarBackgroundColor": "#F7F9FC",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F7F9FC",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "color": "#8A93A6",
+    "selectedColor": "#1A237E",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {"pagePath": "pages/index/index", "text": "首页"},
+      {"pagePath": "pages/course/course", "text": "训练"},
+      {"pagePath": "pages/challenge/challenge", "text": "挑战"},
+      {"pagePath": "pages/profile/profile", "text": "我的"}
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

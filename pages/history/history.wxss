@@ -1,0 +1,1 @@
+.list{display:flex;flex-direction:column;gap:16rpx}.item{display:flex;align-items:center;justify-content:space-between}.item>view:first-child{display:flex;flex-direction:column;gap:8rpx}.title{font-weight:700}.score{font-size:42rpx;font-weight:900;color:#1A237E}.empty{text-align:center;color:#8A93A6;padding:70rpx 30rpx}

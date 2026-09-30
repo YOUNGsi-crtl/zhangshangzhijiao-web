@@ -1,0 +1,15 @@
+page{background:#F7F9FC;color:#182033;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;font-size:28rpx}
+view,text,button{box-sizing:border-box}
+button{margin:0}
+.container{padding:32rpx 32rpx 48rpx}
+.card{background:#fff;border-radius:28rpx;padding:30rpx;box-shadow:0 12rpx 36rpx rgba(26,35,126,.06)}
+.section-title{font-size:34rpx;font-weight:700;color:#182033}
+.muted{color:#8A93A6}
+.primary{background:#1A237E;color:#fff;border-radius:18rpx}
+.secondary{background:#E8EAF6;color:#1A237E;border-radius:18rpx}
+.tag{display:inline-flex;padding:8rpx 16rpx;border-radius:999rpx;background:#EEF0FF;color:#1A237E;font-size:22rpx}
+.row{display:flex;align-items:center}
+.between{display:flex;align-items:center;justify-content:space-between}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20rpx}
+.mt16{margin-top:16rpx}.mt24{margin-top:24rpx}.mt32{margin-top:32rpx}
+.bottom-space{height:40rpx}
